@@ -23,7 +23,7 @@ For reference, here is a truth table for the expression A && B:
 
 ``` js 
 
-|   A   |   B   | A & B | 
+|   A   |   B   | A && B | 
 | true  | true  | true  |
 | false | true  | false |
 | true  | false | false |
@@ -36,7 +36,7 @@ For reference, here is a truth table for the expression A && !B:
 
 ``` js 
 
-|   A   |   B   |   !B   | A & B | 
+|   A   |   B   |   !B   | A && B | 
 | true  | true  | false  | false |
 | false | true  | false  | false |
 | true  | false | true   | true  |
