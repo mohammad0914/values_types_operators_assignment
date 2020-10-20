@@ -89,8 +89,8 @@ Create a truth table for the expression A || B.
 
 For reference, here is a truth table for the expression A && B. You can fill out the last column. Don't worry about keeping the spacing exact.
 
-| A     | B     | A && B | A   |     | B   |
-| ----- | ----- | ------ | --- | --- | --- |
+| A     | B     | A && B | `A   || B`   |
+| ----- | ----- | ------ | ------------ |
 | true  | true  | true   |     |
 | false | true  | false  |     |
 | true  | false | false  |     |
@@ -115,7 +115,7 @@ Create a truth table for the expression !(A || B).
 
 ## Problem Six
 
-Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
+Write a step-by-step evaluation for the following expression ([remember order of operations](https://www.mathsisfun.com/operation-order-pemdas.html)): `2 + 3 * 2 + 1`.
 For reference, here is a exp of a step-by-step evaluation:
 
 ```js
