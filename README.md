@@ -112,10 +112,10 @@ For reference, here is a truth table for the expression A && B. You can fill ou
 
 | A     | B     | A && B | A   `||`  B   |
 | ----- | ----- | ------ | ------------- |
-| true  | true  | true   |     true
-| false | true  | false  |     true
-| true  | false | false  |     true
-| false | false | false  |     false
+| true  | true  | true   |     true      |
+| false | true  | false  |     true      |
+| true  | false | false  |     true      |
+| false | false | false  |     false     |
 
 ## Problem Four
 
@@ -125,14 +125,21 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |          |
-| false | true  | false | false   |          |
-| true  | false | true  | true    |          |
-| false | false | true  | false   |          |
+| true  | true  | false | false   | false    |
+| false | true  | false | false   | false    |
+| true  | false | true  | true    | false    |
+| false | false | true  | false   | true     |
 
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+
+| A     | B     |  `!(A || B)` |
+| ----- | ----- |  ----------- |
+| true  | true  |     false    |
+| false | true  |     false    |
+| true  | false |     false    |
+| false | false |     true     |
 
 ## Problem Six
 
@@ -144,6 +151,12 @@ For reference, here is a exp of a step-by-step evaluation:
 3 + 3 + 4
 6 + 4
 10
+```
+```js
+2 + 3 * 2 + 1
+2 + 6 + 1
+8 + 1
+
 ```
 
 ## Problem Seven
