@@ -89,12 +89,12 @@ Create a truth table for the expression A || B.
 
 For reference, here is a truth table for the expression A && B. You can fill out the last column. Don't worry about keeping the spacing exact.
 
-| A     | B     | A && B | `A   || B`   |
-| ----- | ----- | ------ | ------------ |
-| true  | true  | true   |     |
-| false | true  | false  |     |
-| true  | false | false  |     |
-| false | false | false  |     |
+| A     | B     | A && B |  A `||` B   |
+| ----- | ----- | ------ | ---------- |
+| true  | true  | true   |      |
+| false | true  | false  |      |
+| true  | false | false  |      |
+| false | false | false  |      |
 
 ## Problem Four
 
